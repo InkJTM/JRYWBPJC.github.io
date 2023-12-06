@@ -1,0 +1,59 @@
+body {
+    background-image: url(Aries\ constellation\ black\ wallpaper.jpg);
+}
+
+.title1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #eee1e1;
+    margin-top: 30vh;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+button {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+h2:after {
+    content: '';
+    display: block;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
