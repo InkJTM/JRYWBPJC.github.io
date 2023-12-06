@@ -26,7 +26,7 @@
   height: 420px;
   width: 100%;
   background-image: url("pinterestdownloader.com-1694429266.261853.gif");
-  background-size: 150vh;
+  background-size: cover;
   background-position: center;
   font-size: 32px;
   font-weight: bolder;
