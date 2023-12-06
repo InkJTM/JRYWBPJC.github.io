@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: auto;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(#9ccafe, #5095d8);
+    background: linear-gradient(to top, #9ccafe, #5095d8);
+    background: -webkit-linear-gradient(bottom, #9ccafe, #5095d8); 
+    background: -moz-linear-gradient(bottom, #9ccafe, #5095d8); 
+    background: -ms-linear-gradient(bottom, #9ccafe, #5095d8); 
+    background: -o-linear-gradient(bottom, #9ccafe, #5095d8); 
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 100%;
+    background-image: url("/mysrc/bg.gif");
+    background-size: 120vh;
+    background-position: center;
+    font-size: 32px;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(113, 189, 255, 0.300);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    transition: 0.3s;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: rgba(140, 201, 255, 0.274);
+    color: white;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile img {
+    width: 25%;
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 100px;
+}
+
+.bio {
+    display: inline-block;
+    width: 40%;
+}
+
+.hobby-box, .music-box, .likes-dislikes-box {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 1 2 5px #ccc;
+}
+
+@media (max-width: 600px) {
+    .about {
+        width: 100%;
+        height: 320px;
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .profile img {
+        width: 50%;
+    }
+
+    .bio {
+        width: 60%;
+    }
+
+    .hobby-box, .music-box, .likes-dislikes-box {
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+    }
+}
