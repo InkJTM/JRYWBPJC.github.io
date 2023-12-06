@@ -25,7 +25,7 @@ body {
     height: 420px;
     width: 100%;
     background-image: url("bg.gif");
-    background-size: 120vh;
+    background-size: cover;
     background-position: center;
     font-size: 32px;
     color: white;
